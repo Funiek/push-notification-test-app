@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "677811842209",
+    "project_id": "fundacja-notyfikacje",
+    "storage_bucket": "fundacja-notyfikacje.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677811842209:android:7afacadf681dc7782e54e0",
+        "android_client_info": {
+          "package_name": "com.miglanc.PushNotificationTestApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "677811842209-vju1ocrvlhl40o44qtjm001lscq51h8o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbvZWDCSTO9E1zsJAmCMy3IgTLn91jhH8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "677811842209-vju1ocrvlhl40o44qtjm001lscq51h8o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677811842209:android:760fba470f7b84db2e54e0",
+        "android_client_info": {
+          "package_name": "com.mksawic.PomozIm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "677811842209-vju1ocrvlhl40o44qtjm001lscq51h8o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbvZWDCSTO9E1zsJAmCMy3IgTLn91jhH8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "677811842209-vju1ocrvlhl40o44qtjm001lscq51h8o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
