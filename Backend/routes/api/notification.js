@@ -1,4 +1,5 @@
 const express = require("express");
+
 const fetch = require("node-fetch");
 
 const router = express.Router();
@@ -12,7 +13,9 @@ router.post("/send", (req, res) => {
     text: "To jest wiadomość testowa",
   };
 
-  var fcm_tokens = [];
+  var fcm_tokens = [
+    "cNhwt7ZqTZq7N22XwtcDD0:APA91bEYnNQK7vpqxnbUO4Kp1LI5LuSPA4CBoAtRX5jBTjzXAqpHkLW9qHRccZsyxw00HYCKOuZAxXJVi6LCzLeeH-so9W4Rh9x9dzcr2qJSetvOyBDrlpXvK6F5M1IBhfgHuEi6GFQ0",
+  ];
 
   var notification_body = {
     notification: notification,
@@ -28,12 +31,12 @@ router.post("/send", (req, res) => {
     body: JSON.stringify(notification_body),
   })
     .then(() => {
-        res.status(200).send('Push poszedł');
+      res.status(200).send("Push poszedł");
     })
     .catch((err) => {
-        res.status(400).send('Wystąpił błąd');
-        console.log(err);
-    })
+      res.status(400).send("Wystąpił błąd");
+      console.log(err);
+    });
 });
 
-module.exports = router
+module.exports = router;
